@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RASANÉLLE | Café & Patisserie</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400;500&family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-flower1 brand-icon"></i>
+                <div class="brand-text-container">
+                    <span class="brand-title">RASANÉLLE</span>
+                    <span class="brand-subtitle">Café & Patisserie</span>
+                </div>
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="menu.html" class="nav-link">Menu</a>
+            </div>
+            <div class="nav-actions">
+                <button class="icon-btn"><i class="bi bi-search"></i></button>
+                <button class="icon-btn"><i class="bi bi-bag"></i></button>
+                <a href="#" class="order-btn">Order Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-container">
+        <section class="hero-section">
+            <img src="images/image1.jpg" alt="Cake Banner" class="hero-bg">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <p class="hero-cursive">A little sweetness, beautifully made. ♡</p>
+                <h1 class="hero-title">RASANÉLLE</h1>
+                <p class="hero-subtitle">Café & Patisserie</p>
+                <p class="hero-desc">
+                    Freshly baked pastries, premium coffee, and<br>
+                    heartwarming moments - all in one place.
+                </p>
+                <button class="hero-btn" onclick="exploreMenu()">
+                    EXPLORE OUR MENU &rarr;
+                </button>
+            </div>
+        </section>
+
+        <section class="lower-section">
+            <div class="left-column">
+                <div class="signature-card">
+                    <div class="annotation-text">
+                        Our<br>Signature<br>Product &curvearrowright;
+                    </div>
+                    <div class="signature-content">
+                        <div class="signature-img-container">
+                            <img src="images/image3.png" alt="Signature Slice" class="signature-img">
+                        </div>
+                        <div class="signature-details">
+                            <span class="tag-badge">FEATURED PRODUCT</span>
+                            <h3 class="section-heading">Signature Strawberry Cream Cake</h3>
+                            <p class="signature-desc">
+                                Soft vanilla sponge layered with fresh strawberries and our smooth house-made cream. A timeless favorite, crafted with love.
+                            </p>
+                            <div class="price-container">
+                                <span class="price-text">₱249</span>
+                                <span class="price-unit">/ slice</span>
+                            </div>
+                            <button class="learn-btn" onclick="learnMore()">
+                                LEARN MORE &rarr;
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="banner-special">
+                    <img src="images/image2.jpg" alt="Coffee & Croissant" class="banner-bg">
+                    <div class="banner-overlay"></div>
+                    <div class="banner-content">
+                        <span class="banner-badge">WEEKEND SPECIAL</span>
+                        <h4 class="banner-heading">Get 10% OFF</h4>
+                        <p class="banner-subtext">when you order any pastry + coffee combo</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-column">
+                <div class="perks-card">
+                    <h6 class="perks-heading">Why You'll Love It</h6>
+                    <div class="perks-grid">
+                        <div class="perk-item">
+                            <div class="icon-circle">🍓</div>
+                            <div>
+                                <h6 class="perk-title">Fresh Ingredients</h6>
+                                <p class="perk-desc">Real fruit, real flavor.</p>
+                            </div>
+                        </div>
+                        <div class="perk-item">
+                            <div class="icon-circle">🧁</div>
+                            <div>
+                                <h6 class="perk-title">Freshly Baked</h6>
+                                <p class="perk-desc">Made in small batches.</p>
+                            </div>
+                        </div>
+                        <div class="perk-item">
+                            <div class="icon-circle">☕</div>
+                            <div>
+                                <h6 class="perk-title">Perfect with Coffee</h6>
+                                <p class="perk-desc">A match made in heaven.</p>
+                            </div>
+                        </div>
+                        <div class="perk-item">
+                            <div class="icon-circle">❤️</div>
+                            <div>
+                                <h6 class="perk-title">Made with Love</h6>
+                                <p class="perk-desc">Because you deserve it.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
